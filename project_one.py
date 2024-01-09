@@ -37,3 +37,4 @@ df = pd.read_csv('winemag-data-130k-v2.csv', index_col=0)
 logging.info(df)
 logging.info(s)
 
+logging.info(df.country)
