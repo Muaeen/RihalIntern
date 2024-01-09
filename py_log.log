@@ -1,0 +1,45 @@
+INFO:root:   first  sec
+0     50  131
+1     21    2
+INFO:root:****************************************************************
+INFO:root:           first  sec
+product_1     50  131
+product_2     21    2
+INFO:root:****************************************************************
+INFO:root:0    1
+1    2
+2    3
+3    4
+4    5
+dtype: int64
+INFO:root:****************************************************************
+INFO:root:first     1
+second    2
+third     3
+fourth    4
+fifth     5
+Name: Product_A, dtype: int64
+INFO:root:****************************************************************
+INFO:root:   Unnamed: 0   country                                        description  ...                                              title         variety               winery
+0           0     Italy  Aromas include tropical fruit, broom, brimston...  ...                  Nicosia 2013 Vulkà Bianco  (Etna)     White Blend              Nicosia
+1           1  Portugal  This is ripe and fruity, a wine that is smooth...  ...      Quinta dos Avidagos 2011 Avidagos Red (Douro)  Portuguese Red  Quinta dos Avidagos
+2           2        US  Tart and snappy, the flavors of lime flesh and...  ...      Rainstorm 2013 Pinot Gris (Willamette Valley)      Pinot Gris            Rainstorm
+3           3        US  Pineapple rind, lemon pith and orange blossom ...  ...  St. Julian 2013 Reserve Late Harvest Riesling ...        Riesling           St. Julian
+4           4        US  Much like the regular bottling from 2012, this...  ...  Sweet Cheeks 2012 Vintner's Reserve Wild Child...      Pinot Noir         Sweet Cheeks
+
+[5 rows x 14 columns]
+INFO:root:         country                                        description                             designation  ...                                              title         variety                                    winery
+0          Italy  Aromas include tropical fruit, broom, brimston...                            Vulkà Bianco  ...                  Nicosia 2013 Vulkà Bianco  (Etna)     White Blend                                   Nicosia
+1       Portugal  This is ripe and fruity, a wine that is smooth...                                Avidagos  ...      Quinta dos Avidagos 2011 Avidagos Red (Douro)  Portuguese Red                       Quinta dos Avidagos
+2             US  Tart and snappy, the flavors of lime flesh and...                                     NaN  ...      Rainstorm 2013 Pinot Gris (Willamette Valley)      Pinot Gris                                 Rainstorm
+3             US  Pineapple rind, lemon pith and orange blossom ...                    Reserve Late Harvest  ...  St. Julian 2013 Reserve Late Harvest Riesling ...        Riesling                                St. Julian
+4             US  Much like the regular bottling from 2012, this...      Vintner's Reserve Wild Child Block  ...  Sweet Cheeks 2012 Vintner's Reserve Wild Child...      Pinot Noir                              Sweet Cheeks
+...          ...                                                ...                                     ...  ...                                                ...             ...                                       ...
+129966   Germany  Notes of honeysuckle and cantaloupe sweeten th...  Brauneberger Juffer-Sonnenuhr Spätlese  ...  Dr. H. Thanisch (Erben Müller-Burggraef) 2013 ...        Riesling  Dr. H. Thanisch (Erben Müller-Burggraef)
+129967        US  Citation is given as much as a decade of bottl...                                     NaN  ...                  Citation 2004 Pinot Noir (Oregon)      Pinot Noir                                  Citation
+129968    France  Well-drained gravel soil gives this wine its c...                                   Kritt  ...  Domaine Gresser 2013 Kritt Gewurztraminer (Als...  Gewürztraminer                           Domaine Gresser
+129969    France  A dry style of Pinot Gris, this is crisp with ...                                     NaN  ...      Domaine Marcel Deiss 2012 Pinot Gris (Alsace)      Pinot Gris                      Domaine Marcel Deiss
+129970    France  Big, rich and off-dry, this is powered by inte...           Lieu-dit Harth Cuvée Caroline  ...  Domaine Schoffit 2012 Lieu-dit Harth Cuvée Car...  Gewürztraminer                          Domaine Schoffit
+
+[129971 rows x 13 columns]
+INFO:root:****************************************************************
