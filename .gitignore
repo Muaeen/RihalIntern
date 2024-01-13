@@ -159,3 +159,15 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 winemag-data-130k-v2.csv
+.DS_Store
+img/categorical_columns_bar_plots.png
+img/categorical_features_vs_total_rooms.png
+img/numerical_columns_histograms.png
+img/numerical_features_vs_total_rooms.png
+notebooks/Glenroy_tree.csv
+notebooks/Glenroy_tree_2.csv
+notebooks/glenroy_nnull2.csv
+notebooks/glenroy_properties_map.html
+notebooks/Glenroy_Data_Analysis_Report.html
+py_log.log
+py_log.log
