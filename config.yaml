@@ -1,0 +1,24 @@
+csv_config:
+  file_path: 'data/melb_data.csv' #use relative path
+  index_col: 0
+  rename_col : {'Suburb': 'suburb',
+    'Address': 'address',
+    'Rooms': 'total_rooms',
+    'Type': 'property_type',
+    'Price': 'sale_price',
+    'Method': 'sale_method',
+    'SellerG': 'seller_agency',
+    'Date': 'sale_date',
+    'Distance': 'distance_from_city_center',
+    'Postcode': 'postcode',
+    'Bedroom2': 'number_of_bedrooms',
+    'Bathroom': 'number_of_bathrooms',
+    'Car': 'number_of_car_spaces',
+    'Landsize': 'land_size',
+    'BuildingArea': 'building_area',
+    'YearBuilt': 'year_built',
+    'CouncilArea': 'council_area',
+    'Lattitude': 'latitude',
+    'Longtitude': 'longitude',
+    'Regionname': 'region_name',
+    'Propertycount': 'property_count_in_suburb'}
