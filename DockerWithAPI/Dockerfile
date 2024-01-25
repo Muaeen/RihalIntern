@@ -7,4 +7,4 @@ RUN pip install -r requirements.txt
 COPY ./src ./src 
 
 
-CMD ["python", "./src/main.py"]
+CMD ["python", "./src/main.py","--host", "0.0.0.0", "--port", "2000", "--reload"]
