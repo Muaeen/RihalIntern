@@ -1,0 +1,32 @@
+version: '3.8'
+services:
+  server:
+    image: python:3.11
+    container_name: first_fast_api_1
+    working_dir: /neural-api
+    ports:
+      - 2000:2000
+    volumes:
+      - ./requirements.txt:/neural-api/requirements.txt
+      - ./src:/neural-api/src
+      - ./run.sh:/neural-api/run.sh
+      # - data:/app/data
+    entrypoint: ./run.sh
+    # command: tail -f /dev/nulls
+    networks:
+      - api
+  
+  server2:
+    build: 
+      context: . # paht for Dockerfile
+      # dockerfile: dockerfile ------- Dockerfile name 
+    volumes:
+      - ./src:/neural-api/src
+    networks:
+      - api
+
+# volumes:
+#   data:
+
+networks:
+  api:
