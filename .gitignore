@@ -188,3 +188,14 @@ regression_project/notebook/regression_/bin/python3
 regression_project/notebook/regression_/bin/python3.11
 DockerProgect/data/PersonData.csv
 DockerWithAPI/src/requirements.txt
+PoetryProject/1/example.py
+PoetryProject/1/poetry.lock
+PoetryProject/1/pyproject.toml
+PoetryProject/2/new_project/pyproject.toml
+PoetryProject/2/new_project/README.md
+PoetryProject/2/new_project/new_project/__init__.py
+PoetryProject/2/new_project/tests/__init__.py
+PoetryProject/3/how-to-use-poetry/pyproject.toml
+PoetryProject/3/how-to-use-poetry/README.md
+PoetryProject/3/how-to-use-poetry/how_to_use_poetry/__init__.py
+PoetryProject/3/how-to-use-poetry/tests/__init__.py
