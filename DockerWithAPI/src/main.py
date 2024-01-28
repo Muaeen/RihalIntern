@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def centarl_function():
-    return {"Name": "aas",
+    return {"l;jklijiih": "afesdgrfhtyg",
             "Age" : 535450}
 
 
