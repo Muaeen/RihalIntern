@@ -188,3 +188,5 @@ regression_project/notebook/regression_/bin/python3
 regression_project/notebook/regression_/bin/python3.11
 DockerProgect/data/PersonData.csv
 DockerWithAPI/src/requirements.txt
+DockerProject_2/docker-flask/app/docker-compose.yaml
+DockerProject_2/docker-flask/ml-dev/training.1600000.processed.noemoticon.csv
