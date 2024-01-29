@@ -190,3 +190,11 @@ DockerProgect/data/PersonData.csv
 DockerWithAPI/src/requirements.txt
 DockerProject_2/docker-flask/app/docker-compose.yaml
 DockerProject_2/docker-flask/ml-dev/training.1600000.processed.noemoticon.csv
+1
+2
+3
+DockerProject_2/docker-flask/app/app.py
+DockerProject_2/docker-flask/app/Dockerfile
+DockerProject_2/docker-flask/app/utilities.py
+DockerProject_2/docker-flask/ml-dev/model.ipynb
+DockerProject_2/notebooks/pipeline.pickle
